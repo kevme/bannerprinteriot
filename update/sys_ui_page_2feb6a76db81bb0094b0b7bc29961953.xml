@@ -9,7 +9,6 @@ document.querySelector("button").addEventListener("click", function(e) {
 
 angular.module("app", ['ngSanitize'])
 	.config(function($httpProvider, $locationProvider) {
-        $httpProvider.defaults.headers.common['Authorization'] = 'Basic YWRtaW46U2gwd2NAc2U=';
 		$locationProvider.html5Mode(true); 
     })
 	.controller("ARController", function($scope, $http, $location) {
@@ -22,7 +21,7 @@ angular.module("app", ['ngSanitize'])
 		}
 	
 		$scope.loadData = function() {
-			$http.get('https://hackzoneiotdemo.service-now.com/api/x_snc_iot_ar/ar_integration/getStep/'+$location.search().ar_workflow+'').
+			$http.get('/api/x_snc_iot_ar/ar_integration/getStep/'+$location.search().ar_workflow+'').
 			then(function(response) {
 				var result = response.data.result;
 
@@ -132,13 +131,13 @@ angular.module("app", ['ngSanitize'])
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-30 09:27:36</sys_created_on>
         <sys_id>2feb6a76db81bb0094b0b7bc29961953</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>ARprocess</sys_name>
         <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
         <sys_policy/>
         <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
         <sys_update_name>sys_ui_page_2feb6a76db81bb0094b0b7bc29961953</sys_update_name>
         <sys_updated_by>kevin.mettenberger</sys_updated_by>
-        <sys_updated_on>2019-05-06 18:16:25</sys_updated_on>
+        <sys_updated_on>2019-06-06 15:57:12</sys_updated_on>
     </sys_ui_page>
 </record_update>

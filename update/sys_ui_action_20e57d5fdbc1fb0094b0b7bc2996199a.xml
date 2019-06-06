@@ -31,7 +31,7 @@
         <script><![CDATA[function openURL() {
 	var arWorkflowId = g_form.getValue('ar_workflow');
 
-	g_navigation.openPopup('https://hackzoneiotdemo.service-now.com/x_snc_iot_ar_ARprocess.do?ar_workflow='+arWorkflowId);
+	g_navigation.openPopup('/x_snc_iot_ar_ARprocess.do?ar_workflow='+arWorkflowId);
 	
 	gsftSubmit(null, g_form.getFormElement(), 'ar_support');
 }
@@ -55,7 +55,7 @@ function runServer(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>20e57d5fdbc1fb0094b0b7bc2996199a</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Open AR Support</sys_name>
         <sys_overrides/>
         <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
@@ -63,7 +63,7 @@ function runServer(){
         <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
         <sys_update_name>sys_ui_action_20e57d5fdbc1fb0094b0b7bc2996199a</sys_update_name>
         <sys_updated_by>kevin.mettenberger</sys_updated_by>
-        <sys_updated_on>2019-05-02 13:38:53</sys_updated_on>
+        <sys_updated_on>2019-06-06 15:55:41</sys_updated_on>
         <table>x_snc_iot_ar_calibration</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
