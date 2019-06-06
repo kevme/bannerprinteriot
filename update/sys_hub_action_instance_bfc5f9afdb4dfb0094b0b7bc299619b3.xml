@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="AR Step">1b2f8556dba4770094b0b7bc299619fa</action_type>
+        <action_type_parent/>
+        <comment>Calibration completed.</comment>
+        <compiled_snapshot>1b2f8556dba4770094b0b7bc299619fa</compiled_snapshot>
+        <display_text/>
+        <flow display_value="BannerPrinter Calibration">dfa9eaf2db81bb0094b0b7bc299619dc</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>bfc5f9afdb4dfb0094b0b7bc299619b3</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>sys_hub_action_instance_bfc5f9afdb4dfb0094b0b7bc299619b3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-06-04 06:08:39</sys_updated_on>
+        <ui_id>75c288e4-aa48-425a-9b93-004663458d65</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bfc5f9afdb4dfb0094b0b7bc299619b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>04d5f9afdb4dfb0094b0b7bc299619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>de3575afdb4dfb0094b0b7bc29961959</value>
+        <variable display_value="">c8bcc5d2dba4770094b0b7bc29961935</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>08d5f9afdb4dfb0094b0b7bc299619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">54bcc9d2dba4770094b0b7bc29961907</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>0cd5f9afdb4dfb0094b0b7bc299619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">4cbc89d2dba4770094b0b7bc299619db</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>16d53dafdb4dfb0094b0b7bc2996197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>de3575afdb4dfb0094b0b7bc29961959</value>
+        <variable display_value="">132f8556dba4770094b0b7bc299619fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>1ad53dafdb4dfb0094b0b7bc2996197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">ab2fc556dba4770094b0b7bc29961935</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>1ed53dafdb4dfb0094b0b7bc2996197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6b2fc556dba4770094b0b7bc29961916</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>8</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>40d5f9afdb4dfb0094b0b7bc299619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">50bcc9d2dba4770094b0b7bc29961920</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>44d5f9afdb4dfb0094b0b7bc299619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">04bc89d2dba4770094b0b7bc299619e8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>48d5f9afdb4dfb0094b0b7bc299619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">18bcc9d2dba4770094b0b7bc2996190d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>8</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>52d53dafdb4dfb0094b0b7bc2996197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">272fc556dba4770094b0b7bc29961967</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>56d53dafdb4dfb0094b0b7bc2996197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">232fc556dba4770094b0b7bc29961923</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>5ad53dafdb4dfb0094b0b7bc2996197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6f2fc556dba4770094b0b7bc2996193b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>80d5f9afdb4dfb0094b0b7bc299619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">9cbcc9d2dba4770094b0b7bc29961919</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>84d5f9afdb4dfb0094b0b7bc299619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">d8bcc9d2dba4770094b0b7bc29961913</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>8cd5f9afdb4dfb0094b0b7bc299619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>befeb01fdb41fb0094b0b7bc2996199d</value>
+        <variable display_value="">c7bc309bdb41fb0094b0b7bc299619a8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>92d53dafdb4dfb0094b0b7bc2996197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">632fc556dba4770094b0b7bc29961961</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>96d53dafdb4dfb0094b0b7bc2996197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">af2fc556dba4770094b0b7bc2996195a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>9ed53dafdb4dfb0094b0b7bc2996197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>befeb01fdb41fb0094b0b7bc2996199d</value>
+        <variable display_value="">ea5df49bdb41fb0094b0b7bc299619e4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>9</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>c8d5f9afdb4dfb0094b0b7bc299619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">14bcc9d2dba4770094b0b7bc29961926</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>ccd5f9afdb4dfb0094b0b7bc299619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">40bc89d2dba4770094b0b7bc299619e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>9</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>dad53dafdb4dfb0094b0b7bc2996197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">e72fc556dba4770094b0b7bc2996196d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bfc5f9afdb4dfb0094b0b7bc299619b3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>ded53dafdb4dfb0094b0b7bc2996197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6f2fc556dba4770094b0b7bc2996191c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bfc5f9afdb4dfb0094b0b7bc299619b3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ar_worklow</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>08d5f9afdb4dfb0094b0b7bc299619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ar_worklow</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>1ad53dafdb4dfb0094b0b7bc2996197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>content</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>44d5f9afdb4dfb0094b0b7bc299619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>content</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>56d53dafdb4dfb0094b0b7bc2996197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>model</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>04d5f9afdb4dfb0094b0b7bc299619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>model</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>16d53dafdb4dfb0094b0b7bc2996197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>position_x</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>c8d5f9afdb4dfb0094b0b7bc299619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>position_x</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>dad53dafdb4dfb0094b0b7bc2996197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>position_y</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>8cd5f9afdb4dfb0094b0b7bc299619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>position_y</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>9ed53dafdb4dfb0094b0b7bc2996197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>position_z</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>40d5f9afdb4dfb0094b0b7bc299619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>position_z</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>52d53dafdb4dfb0094b0b7bc2996197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rotation_x</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>48d5f9afdb4dfb0094b0b7bc299619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rotation_x</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>5ad53dafdb4dfb0094b0b7bc2996197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rotation_y</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>80d5f9afdb4dfb0094b0b7bc299619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rotation_y</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>92d53dafdb4dfb0094b0b7bc2996197b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rotation_z</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>ccd5f9afdb4dfb0094b0b7bc299619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rotation_z</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>ded53dafdb4dfb0094b0b7bc2996197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>scale_x</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>0cd5f9afdb4dfb0094b0b7bc299619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>scale_x</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>1ed53dafdb4dfb0094b0b7bc2996197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>scale_y</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>84d5f9afdb4dfb0094b0b7bc299619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>scale_y</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>96d53dafdb4dfb0094b0b7bc2996197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>scale_z</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:33</sys_created_on>
+        <sys_id>c0d5f9afdb4dfb0094b0b7bc299619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_42aacd52dba4770094b0b7bc2996196d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>scale_z</field>
+        <id>bfc5f9afdb4dfb0094b0b7bc299619b3</id>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:23:43</sys_created_on>
+        <sys_id>d2d53dafdb4dfb0094b0b7bc2996197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:23:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2f8556dba4770094b0b7bc299619fa</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

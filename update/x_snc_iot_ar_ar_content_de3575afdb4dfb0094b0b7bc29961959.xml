@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_iot_ar_ar_content">
+    <x_snc_iot_ar_ar_content action="INSERT_OR_UPDATE">
+        <html_content><![CDATA[<p>Calibration process complete. Press the center button on the controller to put printer in "printing mode" (LED turn green).&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><iframe src="https://www.youtube.com/embed/AacDp2mUQ1I" width="560" height="315" frameborder="0" allowfullscreen=""></iframe></p>]]></html_content>
+        <image/>
+        <sys_class_name>x_snc_iot_ar_ar_content</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-02 13:22:34</sys_created_on>
+        <sys_id>de3575afdb4dfb0094b0b7bc29961959</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Calibration Complete</sys_name>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>x_snc_iot_ar_ar_content_de3575afdb4dfb0094b0b7bc29961959</sys_update_name>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-04 15:51:01</sys_updated_on>
+        <title>Calibration Complete</title>
+    </x_snc_iot_ar_ar_content>
+</record_update>

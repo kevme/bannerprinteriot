@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Lego Motor" max_length="40" name="x_snc_iot_ar_u_cmdb_ci_lego_motor" sizeclass="3" type="collection"/>
+</database>

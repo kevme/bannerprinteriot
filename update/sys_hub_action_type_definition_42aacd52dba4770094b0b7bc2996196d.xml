@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="IoT Augmented Reality">189ac192dba4770094b0b7bc29961960</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>ar_step</internal_name>
+        <label_cache>[{"name":"{{action.content}}","label":"action➛Content","type":"action","ref":"x_snc_iot_ar_ar_content"},{"name":"{{action.ar_worklow}}","label":"action➛AR Worklow","type":"action","ref":"x_snc_iot_ar_ar_workflow"},{"name":"{{action.position_x}}","label":"action➛Position X","type":"action","ref":""},{"name":"{{action.position_y}}","label":"action➛Position Y","type":"action","ref":""},{"name":"{{action.position_z}}","label":"action➛Position Z","type":"action","ref":""},{"name":"{{action.scale_x}}","label":"action➛Scale X","type":"action","ref":""},{"name":"{{action.scale_y}}","label":"action➛Scale Y","type":"action","ref":""},{"name":"{{action.scale_z}}","label":"action➛Scale Z","type":"action","ref":""},{"name":"{{action.rotation_x}}","label":"action➛Rotation X","type":"action","ref":""},{"name":"{{action.rotation_y}}","label":"action➛Rotation Y","type":"action","ref":""},{"name":"{{action.rotation_z}}","label":"action➛Rotation Z","type":"action","ref":""},{"name":"{{action.model}}","label":"action➛Model","type":"action","ref":"x_snc_iot_ar_ar_model"}]</label_cache>
+        <latest_snapshot>37c98dd3db81fb0094b0b7bc299619f0</latest_snapshot>
+        <master_snapshot>1b2f8556dba4770094b0b7bc299619fa</master_snapshot>
+        <name>AR Step</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 16:31:13</sys_created_on>
+        <sys_id>42aacd52dba4770094b0b7bc2996196d</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>AR Step</sys_name>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_42aacd52dba4770094b0b7bc2996196d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-01 15:32:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=42aacd52dba4770094b0b7bc2996196d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=42aacd52dba4770094b0b7bc2996196d"/>
+</record_update>

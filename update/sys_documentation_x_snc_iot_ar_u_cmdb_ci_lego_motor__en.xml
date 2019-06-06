@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Lego Motor" language="en" table="x_snc_iot_ar_u_cmdb_ci_lego_motor">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Lego Motor</label>
+            <language>en</language>
+            <name>x_snc_iot_ar_u_cmdb_ci_lego_motor</name>
+            <plural>Lego Motors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kevin.mettenberger</sys_created_by>
+            <sys_created_on>2019-05-04 14:08:48</sys_created_on>
+            <sys_id>86531810db957f0094b0b7bc2996198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Lego Motor</sys_name>
+            <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_iot_ar_u_cmdb_ci_lego_motor__en</sys_update_name>
+            <sys_updated_by>kevin.mettenberger</sys_updated_by>
+            <sys_updated_on>2019-05-04 14:08:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

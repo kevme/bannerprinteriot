@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="AR Step">42aacd52dba4770094b0b7bc2996196d</action>
+        <cid>df7d451f-490a-464d-81c0-da3108de0034</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Wait For Condition step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Wait For Condition">4c9234ca0b18030085c083eb37673aaa</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 16:42:09</sys_created_on>
+        <sys_id>d22d0116dba4770094b0b7bc29961936</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Wait For Condition step</sys_name>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>sys_hub_step_instance_d22d0116dba4770094b0b7bc29961936</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 16:42:29</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d22d0116dba4770094b0b7bc29961936"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d22d0116dba4770094b0b7bc29961936</document_key>
+        <order>105</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 16:42:29</sys_created_on>
+        <sys_id>0f3d4116dba4770094b0b7bc2996196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 16:42:29</sys_updated_on>
+        <value>x_snc_iot_ar_ar_workflow</value>
+        <variable display_value="">72b2bcca0b18030085c083eb37673a0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d22d0116dba4770094b0b7bc29961936</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 16:42:29</sys_created_on>
+        <sys_id>c33d4116dba4770094b0b7bc2996196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 16:42:29</sys_updated_on>
+        <value>loaded=true</value>
+        <variable display_value="">7de2fcca0b18030085c083eb37673aed</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d22d0116dba4770094b0b7bc29961936"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>d22d0116dba4770094b0b7bc29961936</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 16:42:29</sys_created_on>
+        <sys_id>473d4116dba4770094b0b7bc2996196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 16:42:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d22d0116dba4770094b0b7bc29961936</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 16:42:29</sys_created_on>
+        <sys_id>433d4116dba4770094b0b7bc2996196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 16:42:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value>{{action.ar_worklow}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d22d0116dba4770094b0b7bc29961936</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 16:42:29</sys_created_on>
+        <sys_id>8f3d4116dba4770094b0b7bc2996196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 16:42:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

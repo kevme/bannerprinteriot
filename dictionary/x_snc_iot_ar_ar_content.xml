@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="AR Content" max_length="40" name="x_snc_iot_ar_ar_content" type="collection">
+        <element label="HTML Content" max_length="8000" name="html_content" type="html"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element display="true" label="Title" max_length="250" name="title" type="string"/>
+    </element>
+</database>

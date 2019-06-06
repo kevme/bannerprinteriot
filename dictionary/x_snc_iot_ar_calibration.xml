@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Calibration" max_length="40" name="x_snc_iot_ar_calibration" sizeclass="144" type="collection">
+        <element label="AR Workflow" max_length="32" name="ar_workflow" reference="x_snc_iot_ar_ar_workflow" type="reference"/>
+    </element>
+</database>

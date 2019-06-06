@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_plan">
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="AR Step">42aacd52dba4770094b0b7bc2996196d</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"ff2fc556dba4770094b0b7bc29961999","name":"plan"}}</plan>
+        <snapshot>37c98dd3db81fb0094b0b7bc299619f0</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 16:51:00</sys_created_on>
+        <sys_id>ff2fc556dba4770094b0b7bc29961999</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>42aacd52dba4770094b0b7bc2996196d</sys_name>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>sys_hub_action_plan_ff2fc556dba4770094b0b7bc29961999</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-01 15:32:51</sys_updated_on>
+    </sys_hub_action_plan>
+</record_update>

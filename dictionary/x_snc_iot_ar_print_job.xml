@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Print Job" max_length="40" name="x_snc_iot_ar_print_job" type="collection">
+        <element label="Executed" max_length="40" name="executed" type="boolean"/>
+        <element default="NOW" display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[/**
+document.querySelector("button").addEventListener("click", function(e) {
+  alert("test");
+})
+**/
+
+angular.module("app", ['ngSanitize'])
+	.config(function($httpProvider, $locationProvider) {
+        $httpProvider.defaults.headers.common['Authorization'] = 'Basic YWRtaW46U2gwd2NAc2U=';
+		$locationProvider.html5Mode(true); 
+    })
+	.controller("ARController", function($scope, $http, $location) {
+		
+	
+		$scope.buttonDisabled = false;
+		$scope.confirmClicked = function() {
+			$scope.buttonDisabled = true;
+			$scope.loadData();
+		}
+	
+		$scope.loadData = function() {
+			$http.get('https://hackzoneiotdemo.service-now.com/api/x_snc_iot_ar/ar_integration/getStep/'+$location.search().ar_workflow+'').
+			then(function(response) {
+				var result = response.data.result;
+
+				$scope.data.title = result.title;
+				$scope.data.description = result.text;
+
+				$scope.data.positionX = result.positionX;
+				$scope.data.positionY = result.positionY;
+				$scope.data.positionZ = result.positionZ;
+
+				$scope.data.scaleX = result.scaleX;
+				$scope.data.scaleY = result.scaleY;
+				$scope.data.scaleZ = result.scaleZ;
+
+				$scope.data.rotationX = result.rotationX;
+				$scope.data.rotationY = result.rotationY;
+				$scope.data.rotationZ = result.rotationZ;
+
+				$scope.data.ar_model = result.model;
+				
+				$scope.buttonDisabled = false;
+			});
+		}
+		
+		$scope.data = {};
+		$scope.loadData();
+	
+		
+	
+} );
+
+/*function loadData() {
+	x_snc_ar_sandbox.ar_data_test
+	alert("test");
+}*/
+]]></client_script>
+        <description/>
+        <direct>true</direct>
+        <endpoint>x_snc_iot_ar_ARprocess.do</endpoint>
+        <html><![CDATA[<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<!-- include angular js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+	<!-- include sanitize -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-sanitize.min.js"></script>
+	<!-- include A-Frame obviously -->
+	<!-- <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.7.1/aframe.min.js"></script>
+	<!-- include ar.js for A-Frame -->
+	<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+<!--CSS Includes -->
+ <g:evaluate object="true">
+    var stylesheets = [
+                       //ENTER NAMES OF STYLE RECORDS HERE IN ARRAY FORMAT
+						'ar_bootstrap_v4',
+						 'ar_css'
+					   
+                       //END OF CONFIGURATION NEEDED - LEAVE THE REST AS IS
+                      ];
+    var csslinks = [];
+    for(var key in stylesheets){
+      var css = new GlideRecord("content_css");
+      css.addQuery("name", stylesheets[key]);
+      css.query()
+      css.next();
+      csslinks.push(css.sys_id+".cssdbx?ver="+css.sys_updated_on);
+    }
+  </g:evaluate>
+  <j:forEach var="jvar_link" items="${csslinks}">
+    <link href="${jvar_link}" rel="stylesheet" type="text/css"/>
+  </j:forEach>
+	<base href="/"></base>
+<body style='margin : 0px; overflow: hidden;' ng-app='app' ng-controller="ARController">
+
+
+<div class='ar-container'>
+	<h3>{{data.title}}</h3>
+	<div ng-bind-html="data.description"></div>
+	
+	<!--
+	<p>{{data.positionX}} {{data.positionY}} {{data.positionZ}}</p>
+	<p>{{data.scaleX}} {{data.scaleY}} {{data.scaleZ}}</p>
+	<p>{{data.rotationX}} {{data.rotationY}} {{data.rotationZ}}</p>
+-->
+	<div class="button-container">
+		<button ng-disabled="buttonDisabled"  class='btn btn-primary  btn-lg' ng-click='confirmClicked()'>Confirm</button>
+	</div>
+
+	
+</div>
+
+  <a-scene embedded='' arjs="debugUIEnabled: false; trackingMethod: best; patternRatio:0.5;">
+  	<!--<a-marker type='pattern' patternURL='/sys_attachment.do?3003e0a3db89fb0094b0b7bc29961924'-->
+	  <a-marker preset='hiro'>
+         <!--  <a-box position='0 0.5 0' material='color: grey;'></a-box>-->
+		<a-gltf-model  position='{{data.positionX}} {{data.positionY}} {{data.positionZ}}' scale='{{data.scaleX}} {{data.scaleY}} {{data.scaleZ}}' rotation='{{data.rotationX}} {{data.rotationY}} {{data.rotationZ}}'  material='color: grey;'  src='/sys_attachment.do?sys_id=4b0fb01fdb41fb0094b0b7bc299619b2'></a-gltf-model>
+		
+  	</a-marker>
+  	<a-entity camera=''></a-entity>
+    </a-scene>
+</body>
+</j:jelly>]]></html>
+        <name>ARprocess</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 09:27:36</sys_created_on>
+        <sys_id>2feb6a76db81bb0094b0b7bc29961953</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>ARprocess</sys_name>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>sys_ui_page_2feb6a76db81bb0094b0b7bc29961953</sys_update_name>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-06 18:16:25</sys_updated_on>
+    </sys_ui_page>
+</record_update>

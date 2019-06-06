@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Banner Printer" max_length="40" name="x_snc_iot_ar_u_cmdb_ci_banner_printer" sizeclass="1" type="collection"/>
+</database>

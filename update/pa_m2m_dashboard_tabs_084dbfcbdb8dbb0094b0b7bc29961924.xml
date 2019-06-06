@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Banner Printer Overview">872d7fcbdb8dbb0094b0b7bc29961911</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-01 09:58:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>084dbfcbdb8dbb0094b0b7bc29961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>872d7fcbdb8dbb0094b0b7bc29961911</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_084dbfcbdb8dbb0094b0b7bc29961924</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-01 09:58:20</sys_updated_on>
+        <tab display_value="New Tab">044d7fcbdb8dbb0094b0b7bc2996191d</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="AR Workflow" max_length="40" name="x_snc_iot_ar_ar_workflow" type="collection">
+        <element label="AR Content" max_length="32" name="ar_content" reference="x_snc_iot_ar_ar_content" type="reference"/>
+        <element label="Confirmed" max_length="40" name="confirmed" type="boolean"/>
+        <element label="Loaded" max_length="40" name="loaded" type="boolean"/>
+        <element label="Model" max_length="32" name="model" reference="x_snc_iot_ar_ar_model" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Position X" max_length="20" name="position_x" type="decimal"/>
+        <element label="Position Y" max_length="20" name="position_y" type="decimal"/>
+        <element label="Position Z" max_length="20" name="position_z" type="decimal"/>
+        <element label="Rotation X" max_length="20" name="rotation_x" type="decimal"/>
+        <element label="Rotation Y" max_length="20" name="rotation_y" type="decimal"/>
+        <element label="Rotation Z" max_length="20" name="rotation_z" type="decimal"/>
+        <element label="Scale X" max_length="20" name="scale_x" type="decimal"/>
+        <element label="Scale Y" max_length="20" name="scale_y" type="decimal"/>
+        <element label="Scale Z" max_length="20" name="scale_z" type="decimal"/>
+        <element label="Task" max_length="32" name="task" reference="task" type="reference"/>
+        <index name="index">
+            <element name="task"/>
+        </index>
+        <index name="index2">
+            <element name="model"/>
+        </index>
+        <index name="index3">
+            <element name="ar_content"/>
+        </index>
+    </element>
+</database>

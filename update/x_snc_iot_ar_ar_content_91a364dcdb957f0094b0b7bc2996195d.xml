@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_iot_ar_ar_content">
+    <x_snc_iot_ar_ar_content action="INSERT_OR_UPDATE">
+        <html_content><![CDATA[<p>You can roll the paper through the printer by pressing the up and down button on the controller:</p>
+<ul style="list-style-position: inside;"><li>Press up button to roll paper forward.</li><li>Press down button to roll paper backward.</li></ul>]]></html_content>
+        <image/>
+        <sys_class_name>x_snc_iot_ar_ar_content</sys_class_name>
+        <sys_created_by>kevin.mettenberger</sys_created_by>
+        <sys_created_on>2019-05-04 15:21:32</sys_created_on>
+        <sys_id>91a364dcdb957f0094b0b7bc2996195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Optional: Roll Paper</sys_name>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>x_snc_iot_ar_ar_content_91a364dcdb957f0094b0b7bc2996195d</sys_update_name>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-04 15:21:32</sys_updated_on>
+        <title>Optional: Roll Paper</title>
+    </x_snc_iot_ar_ar_content>
+</record_update>

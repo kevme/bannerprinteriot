@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_form_header">
+    <sys_aw_form_header action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <primary_field>name</primary_field>
+        <secondary_fields>sys_class_name,install_status,owned_by,sys_updated_on,discovery_source</secondary_fields>
+        <sys_class_name>sys_aw_form_header</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 17:04:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a645d4c3db85bb0094b0b7bc29961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>sys_aw_form_header_a645d4c3db85bb0094b0b7bc29961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-30 17:04:53</sys_updated_on>
+        <table>u_cmdb_ci_banner_printer</table>
+    </sys_aw_form_header>
+</record_update>

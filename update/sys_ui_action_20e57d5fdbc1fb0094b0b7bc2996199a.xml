@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>ar_support</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Open AR Support</name>
+        <onclick>openURL()</onclick>
+        <order>100</order>
+        <script><![CDATA[function openURL() {
+	var arWorkflowId = g_form.getValue('ar_workflow');
+
+	g_navigation.openPopup('https://hackzoneiotdemo.service-now.com/x_snc_iot_ar_ARprocess.do?ar_workflow='+arWorkflowId);
+	
+	gsftSubmit(null, g_form.getFormElement(), 'ar_support');
+}
+
+if(typeof window == 'undefined')
+   runServer();
+
+//Server-side function
+function runServer(){
+   //action.setRedirectURL('/$pa_dashboard.do?sysparm_dashboard=872d7fcbdb8dbb0094b0b7bc29961911&sysparm_tab=044d7fcbdb8dbb0094b0b7bc2996191d&sysparm_cancelable=true&sysparm_editable=undefined&sysparm_active_panel=false');
+}
+
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-01 18:46:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>20e57d5fdbc1fb0094b0b7bc2996199a</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Open AR Support</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
+        <sys_update_name>sys_ui_action_20e57d5fdbc1fb0094b0b7bc2996199a</sys_update_name>
+        <sys_updated_by>kevin.mettenberger</sys_updated_by>
+        <sys_updated_on>2019-05-02 13:38:53</sys_updated_on>
+        <table>x_snc_iot_ar_calibration</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
