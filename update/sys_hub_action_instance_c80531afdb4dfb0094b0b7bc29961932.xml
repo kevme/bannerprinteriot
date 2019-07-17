@@ -14,14 +14,14 @@
         <sys_created_by>kevin.mettenberger</sys_created_by>
         <sys_created_on>2019-05-02 13:20:01</sys_created_on>
         <sys_id>c80531afdb4dfb0094b0b7bc29961932</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name/>
         <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
         <sys_policy/>
         <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
         <sys_update_name>sys_hub_action_instance_c80531afdb4dfb0094b0b7bc29961932</sys_update_name>
-        <sys_updated_by>kevin.mettenberger</sys_updated_by>
-        <sys_updated_on>2019-06-03 12:44:05</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-24 08:35:24</sys_updated_on>
         <ui_id>a845ffa8-7a64-4d3a-b842-83bb17bd9ef3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c80531afdb4dfb0094b0b7bc29961932"/>

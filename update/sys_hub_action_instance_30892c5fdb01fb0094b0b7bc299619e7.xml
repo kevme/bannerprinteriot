@@ -4,7 +4,7 @@
         <action_inputs/>
         <action_type display_value="AR Step">1b2f8556dba4770094b0b7bc299619fa</action_type>
         <action_type_parent display_value="AR Step">42aacd52dba4770094b0b7bc2996196d</action_type_parent>
-        <comment>Calibrate Lifter</comment>
+        <comment>Calibrate Cart</comment>
         <compiled_snapshot>1b2f8556dba4770094b0b7bc299619fa</compiled_snapshot>
         <display_text/>
         <flow display_value="BannerPrinter Calibration">b0892c5fdb01fb0094b0b7bc29961951</flow>
@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-01 13:11:43</sys_created_on>
         <sys_id>30892c5fdb01fb0094b0b7bc299619e7</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name/>
         <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
         <sys_policy/>
         <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
         <sys_update_name>sys_hub_action_instance_30892c5fdb01fb0094b0b7bc299619e7</sys_update_name>
-        <sys_updated_by>kevin.mettenberger</sys_updated_by>
-        <sys_updated_on>2019-06-03 12:44:05</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-24 08:35:24</sys_updated_on>
         <ui_id>d374a0f8-0b6f-4cbd-ad8a-f69b235263a7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=30892c5fdb01fb0094b0b7bc299619e7"/>
@@ -47,10 +47,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-01 13:11:43</sys_created_on>
         <sys_id>05892c5fdb01fb0094b0b7bc299619f0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-01 13:11:43</sys_updated_on>
-        <value>0</value>
+        <sys_updated_on>2019-06-24 08:35:22</sys_updated_on>
+        <value>90</value>
         <variable display_value="">632fc556dba4770094b0b7bc29961961</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -75,10 +75,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-01 13:11:43</sys_created_on>
         <sys_id>41892c5fdb01fb0094b0b7bc299619f0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-02 09:27:00</sys_updated_on>
-        <value>-2</value>
+        <sys_updated_on>2019-06-24 08:35:22</sys_updated_on>
+        <value>1</value>
         <variable display_value="">6f2fc556dba4770094b0b7bc2996191c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -89,10 +89,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-01 13:11:43</sys_created_on>
         <sys_id>4d892c5fdb01fb0094b0b7bc299619f0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-01 13:11:43</sys_updated_on>
-        <value>0</value>
+        <sys_updated_on>2019-06-24 08:35:22</sys_updated_on>
+        <value>180</value>
         <variable display_value="">e72fc556dba4770094b0b7bc2996196d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -131,10 +131,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-01 13:11:43</sys_created_on>
         <sys_id>8d892c5fdb01fb0094b0b7bc299619ef</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-02 09:27:00</sys_updated_on>
-        <value>-3.8</value>
+        <sys_updated_on>2019-06-24 08:35:22</sys_updated_on>
+        <value>1.8</value>
         <variable display_value="">6b2fc556dba4770094b0b7bc29961916</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -145,9 +145,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-01 13:11:43</sys_created_on>
         <sys_id>c1892c5fdb01fb0094b0b7bc299619f1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-02 09:27:00</sys_updated_on>
+        <sys_updated_on>2019-06-23 16:58:39</sys_updated_on>
         <value>f88b2676db81bb0094b0b7bc299619bf</value>
         <variable display_value="">132f8556dba4770094b0b7bc299619fd</variable>
     </sys_variable_value>
@@ -159,10 +159,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-01 13:11:43</sys_created_on>
         <sys_id>c5892c5fdb01fb0094b0b7bc299619f0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-02 09:27:00</sys_updated_on>
-        <value>-1.6</value>
+        <sys_updated_on>2019-06-24 08:35:22</sys_updated_on>
+        <value>0</value>
         <variable display_value="">232fc556dba4770094b0b7bc29961923</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

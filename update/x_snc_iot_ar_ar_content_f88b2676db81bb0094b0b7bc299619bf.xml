@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_iot_ar_ar_content">
     <x_snc_iot_ar_ar_content action="INSERT_OR_UPDATE">
-        <html_content><![CDATA[<p>Execute the following steps to calibrate the lifter:</p>
-<ol style="list-style-position: inside;"><li>Ensure that BannerPrinter is in calibration mode. LED is Red.</li><li>Use up and down button on controller to move lifter.</li><li>Set lifter to position indicated in image below (close to 90 degrees). Make sure that lifter is not past dead centre.</li><li>Click the center button on the controller. LED turn yellow.</li></ol>
-<p><img style="align: baseline;" title="" src="setup_lifter.jpgx" alt="" width="2168" align="baseline" border="" hspace="" vspace="" /></p>
-<p> </p>
-<p> </p>]]></html_content>
+        <html_content><![CDATA[<p>Execute the following steps to calibrate the cart:</p>
+<ol style="list-style-position: inside;">
+<li>Ensure that MegaPrinter is in calibration mode.</li>
+<li>Use up and down&nbsp;lever&nbsp;to&nbsp;center cart.</li>
+<li>Position the lever parallel to the printer body.</li>
+</ol>
+<p>&nbsp;<img style="align: baseline;" title="" src="TW01.jpgx" alt="" width="4016" height="2216" align="baseline" border="" hspace="" vspace="" /></p>
+<p>&nbsp;</p>]]></html_content>
         <image>bbace013db41fb0094b0b7bc299619a4</image>
         <sys_class_name>x_snc_iot_ar_ar_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-30 09:23:05</sys_created_on>
         <sys_id>f88b2676db81bb0094b0b7bc299619bf</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Calibrate Lifter</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Calibrate Cart</sys_name>
         <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
         <sys_policy/>
         <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
         <sys_update_name>x_snc_iot_ar_ar_content_f88b2676db81bb0094b0b7bc299619bf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-02 09:10:11</sys_updated_on>
-        <title>Calibrate Lifter</title>
+        <sys_updated_on>2019-06-23 16:51:00</sys_updated_on>
+        <title>Calibrate Cart</title>
     </x_snc_iot_ar_ar_content>
 </record_update>

@@ -11,7 +11,7 @@
         <description/>
         <internal_name>bannerprinter_calibration</internal_name>
         <label_cache>[{"name":"Created_1.current.task","label":"Trigger➛AR Workflow Record➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_snc_iot_ar_ar_workflow","column_name":"task"},{"name":"a845ffa8-7a64-4d3a-b842-83bb17bd9ef3.table_name","label":"4➛Task Table","reference":"task","reference_display":"Task","type":"table_name","base_type":"table_name"},{"name":"a845ffa8-7a64-4d3a-b842-83bb17bd9ef3.record","label":"4➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger➛AR Workflow Record","reference":"x_snc_iot_ar_ar_workflow","reference_display":"AR Workflow","type":"reference","base_type":"reference"}]</label_cache>
-        <latest_snapshot>debe4acadbf93b0094b0b7bc299619d4</latest_snapshot>
+        <latest_snapshot>f4503d24db12b300059052f8f49619c6</latest_snapshot>
         <master_snapshot>b0892c5fdb01fb0094b0b7bc29961951</master_snapshot>
         <name>BannerPrinter Calibration</name>
         <outputs/>
@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-30 09:14:42</sys_created_on>
         <sys_id>dfa9eaf2db81bb0094b0b7bc299619dc</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>43</sys_mod_count>
         <sys_name>BannerPrinter Calibration</sys_name>
         <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
         <sys_policy/>
         <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
         <sys_update_name>sys_hub_flow_dfa9eaf2db81bb0094b0b7bc299619dc</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-06-04 06:08:37</sys_updated_on>
+        <sys_updated_on>2019-06-24 08:36:20</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=dfa9eaf2db81bb0094b0b7bc299619dc"/>

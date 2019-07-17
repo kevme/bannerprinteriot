@@ -115,13 +115,37 @@ angular.module("app", ['ngSanitize'])
 </div>
 
   <a-scene embedded='' arjs="debugUIEnabled: false; trackingMethod: best; patternRatio:0.5;">
-  	<!--<a-marker type='pattern' patternURL='/sys_attachment.do?3003e0a3db89fb0094b0b7bc29961924'-->
-	  <a-marker preset='hiro'>
-         <!--  <a-box position='0 0.5 0' material='color: grey;'></a-box>-->
-		<a-gltf-model  position='{{data.positionX}} {{data.positionY}} {{data.positionZ}}' scale='{{data.scaleX}} {{data.scaleY}} {{data.scaleZ}}' rotation='{{data.rotationX}} {{data.rotationY}} {{data.rotationZ}}'  material='color: grey;'  src='/sys_attachment.do?sys_id=4b0fb01fdb41fb0094b0b7bc299619b2'></a-gltf-model>
+	  <a-assets>
+         <!--a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item-->
+		  
+		  <a-asset-item id="arrowpub" src="https://writermonkey.it/arrow2.gltf"></a-asset-item>
+		  
+		  <a-asset-item id="arrow" src="/sys_attachment.do?sys_id=5548788cdbd63300059052f8f49619b1"></a-asset-item>
+		  
+		  <a-asset-item id="boxatt" src="/sys_attachment.do?sys_id=d113b498db927300059052f8f49619ea"></a-asset-item>
+		  
+		  <a-asset-item id="box" src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF/Box.gltf"></a-asset-item>
+		  <a-asset-item id="tri" src="https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/AnimatedTriangle/glTF/AnimatedTriangle.gltf"></a-asset-item>
+		  
+        </a-assets>
+  	<!--a-marker type='pattern' patternURL='https://raw.githubusercontent.com/jeromeetienne/AR.js/master/three.js/examples/marker-training/examples/pattern-files/pattern-hiro.patt'-->
+	<a-marker type='pattern' patternURL='https://writermonkey.it/pattern-now-bw2.patt'>
+	<!--a-marker type='pattern' patternURL='https://writermonkey.it/pattern-marker2.patt'-->
+					  
+						<!--a-marker preset='hiro'-->
+					  <!--a-box position='0 0.5 0' material='color: grey;'></a-box-->
+		
+		<a-gltf-model  position='{{data.positionX}} {{data.positionY}} {{data.positionZ}}' scale='{{data.scaleX}} {{data.scaleY}} {{data.scaleZ}}' rotation='{{data.rotationX}} {{data.rotationY}} {{data.rotationZ}}'  material='color: grey;'  src='https://writermonkey.it/arrow2.gltf'></a-gltf-model>
+		
+		<!--a-gltf-model  position='1.8 1 0' scale='0.8 0.8 0.8' rotation='90 0 180'  material='color: red;'  src='https://writermonkey.it/arrow2.gltf'></a-gltf-model-->
+		
+		<!--a-gltf-model  position='-4 -3 0' scale='0.8 0.8 0.8' rotation='0 0 -90'  material='color: red;'  src='https://writermonkey.it/arrow2.gltf'></a-gltf-model-->
+		  
+		
+		<!--a-entity gltf-model="#arrowpub" position='0 0.5 0' material='color: grey;' scale='0.8'> </a-entity-->
 		
   	</a-marker>
-  	<a-entity camera=''></a-entity>
+	  <a-entity camera=''></a-entity>
     </a-scene>
 </body>
 </j:jelly>]]></html>
@@ -131,13 +155,13 @@ angular.module("app", ['ngSanitize'])
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-30 09:27:36</sys_created_on>
         <sys_id>2feb6a76db81bb0094b0b7bc29961953</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>114</sys_mod_count>
         <sys_name>ARprocess</sys_name>
         <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
         <sys_policy/>
         <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
         <sys_update_name>sys_ui_page_2feb6a76db81bb0094b0b7bc29961953</sys_update_name>
-        <sys_updated_by>kevin.mettenberger</sys_updated_by>
-        <sys_updated_on>2019-06-06 15:57:12</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-25 09:19:17</sys_updated_on>
     </sys_ui_page>
 </record_update>

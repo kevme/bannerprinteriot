@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_iot_ar_ar_content">
     <x_snc_iot_ar_ar_content action="INSERT_OR_UPDATE">
-        <html_content><![CDATA[<p>Execute the following steps to calibrate the pen:</p>
-<ol style="list-style-position: inside;"><li>Make sure the printer is in the pen calibration mode (LED is yellow).</li><li>Use left and right button on controller to calibrate the pen.</li><li>Move pen to position as indicated in the image below. <strong>Make sure that rod is not past dead centre!</strong></li></ol>
-<p><img style="align: baseline;" title="" src="setup_pen.jpgx" alt="" width="200" height="150" align="baseline" border="" hspace="" vspace="" /></p>
-<p> </p>]]></html_content>
+        <html_content><![CDATA[<p>Execute the following steps to calibrate the ink:</p>
+<ol style="list-style-position: inside;">
+<li>Make sure the printer is in the calibration mode.</li>
+<li>Use&nbsp;the wheel&nbsp;controller to calibrate the ink.</li>
+</ol>
+<p><img style="align: baseline;" title="" src="TW02.jpegx" alt="" width="4032" height="3024" align="baseline" border="" hspace="" vspace="" /></p>]]></html_content>
         <image/>
         <sys_class_name>x_snc_iot_ar_ar_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-02 09:09:06</sys_created_on>
         <sys_id>c51af063dbc9fb0094b0b7bc2996190a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Calibrate Pen</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Calibrate Ink</sys_name>
         <sys_package display_value="IoT Augmented Reality" source="x_snc_iot_ar">394156f1dba4370094b0b7bc29961968</sys_package>
         <sys_policy/>
         <sys_scope display_value="IoT Augmented Reality">394156f1dba4370094b0b7bc29961968</sys_scope>
         <sys_update_name>x_snc_iot_ar_ar_content_c51af063dbc9fb0094b0b7bc2996190a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-02 09:19:04</sys_updated_on>
-        <title>Calibrate Pen</title>
+        <sys_updated_on>2019-06-23 16:53:37</sys_updated_on>
+        <title>Calibrate Ink</title>
     </x_snc_iot_ar_ar_content>
 </record_update>
